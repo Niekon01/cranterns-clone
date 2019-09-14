@@ -1,0 +1,100 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url("http://cranterns.epizy.com/resource/backgrounds/0.png");
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: Calibri;
+	font-size: 15px;
+}
+
+a, a:visited {
+	color: #3e3eef;
+	transition: 0.5s;
+	text-decoration: none;
+} a:active {
+	color: #fff00f;
+}
+
+#header {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.content {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+	background-color: rgba(255,255,255,0.5);
+	display: flex;
+	justify-content: space-between;
+}
+
+#menu {
+	box-sizing: border-box;
+	width: 25%;
+	height: auto;
+	border: 2px solid #858179;
+	background: linear-gradient(to bottom, #fff3a8 0%, #ffcaa8 100%);
+	border-radius: 10px;
+	padding: 15px 25px;
+	text-align: center;
+}
+
+#main-content {
+	width: 74%;
+	border: 2px solid #858179;
+	padding: 15px;
+	box-sizing: border-box;
+	min-height: 700px;
+}
+
+.align-center-text {
+	vertical-align: top;
+	line-height: 1.5;
+}
+
+.menu-item {
+	width: 100%;
+	height: auto;
+	border: 2px solid #858179;
+	border-radius: 5px;
+	background: linear-gradient(to bottom, #fff3a8 0%, #ffcaa8 100%);
+	padding: 15px 0px;
+}
+
+.page-title {
+	font-family: cursive;
+	text-align: center;
+	font-weight: normal;
+    color: #431796;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.15);
+    font-size: 35px;
+    border-bottom: 1px #999 dashed;
+    transition: 0.5s;
+}
+
+.online {
+	border: 1px solid green;
+	padding: 2px;
+	text-align: center;
+	color: green;
+}
+
+.cranterns-box {
+	text-align: center;
+}
+
+.cranterns-box h2 {
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #eee;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    background-color: #7b61ff;
+    padding: 5px;
+    border-left: 10px double #b699ff;
+    transition: 0.5s;
+}
